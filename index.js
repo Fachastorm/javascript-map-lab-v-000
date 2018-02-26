@@ -30,7 +30,7 @@ var sortedRobots = robots.map(function (robot) {
   } else { return Object.assign({}, robot, {
       alliance: 'autobot'
     });
-})
+});
 
 
 
