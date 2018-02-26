@@ -25,11 +25,11 @@ const zebraStripes = [
 var sortedRobots = robots.map(function (robots) {
   if (robots.name === knownDecepticons);
     return Object.assign({}, robots, {
-      alliance: 'decepticon';
-    })
+      alliance: 'decepticon'
+    });
     else return Object.assign({}, robots, {
-      alliance: 'autobot';
-    })
+      alliance: 'autobot'
+    });
 })
 
 
