@@ -21,3 +21,26 @@ const zebraStripes = [
   { width: 0.59, color: null },
   { width: 7.31, color: null }
 ];
+
+var sortedRobots = robots.map()
+
+
+
+
+
+// function map(collection, callback) {
+//     const result = [];
+//
+//     for (let i = 0; i < collection.length; i++) {
+//       const element = collection[i];
+//       result.push(callback(element, i, collection));
+//     }
+//
+//     return result;
+//   }
+//
+// const numbers = [1, 2, 3];
+// const doubledNumbers = map(numbers, function (number) {
+//  return number * 2;
+// });
+// console.log(doubledNumbers);
