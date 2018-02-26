@@ -22,18 +22,12 @@ const zebraStripes = [
   { width: 7.31, color: null }
 ];
 
-const sortedRobots = robots.map(function(autobot) {
-  if (autobot.includes(knownDecepticons)) {
-    return Object.assign({}, autobot, { alliance: "Decepticon" });
-  } else {
-    return Object.assign({}, autobot, { alliance: "Good guys" });
-  }
-});
-
-
-
-
-
+const sortedRobots = robots.map(function (robot) {
+  const isDecepticon = knownDecepticons.includes(robot.name); 
+  return Object.assign({}, robot { 
+    alliance: isDecepticon ? "decepticon" : "autobot"
+  })
+})
 // const transformedAutobotsWithMap = autobots.map(function (autobot) {
 //   return Object.assign({}, autobot, {
 //     strength: autobot.strength * 2,
