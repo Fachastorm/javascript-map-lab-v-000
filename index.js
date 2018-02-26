@@ -30,12 +30,12 @@ const sortedRobots = robots.map(function (robot) {
 });
 
 
-const coloredZebraStripes = zebraStripes.map(function (stripe, index) { 
-  const isEven = (index % 2) === 0; 
+const coloredZebraStripes = zebraStripes.map(function (stripe, index) {
+  const isEven = (index % 2) === 0;
     return Object.assign({}, stripe, {
       color: isEven ? "black" : "white"
-    })
-})
+    });
+});
 
 // const transformedAutobotsWithMap = autobots.map(function (autobot) {
 //   return Object.assign({}, autobot, {
